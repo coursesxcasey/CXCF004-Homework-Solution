@@ -1,0 +1,97 @@
+h1 {
+  color: white;
+  text-decoration: underline;
+  font-family: 'Arial', sans-serif;
+
+  margin: 0;
+
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Arial';
+  color: white;
+  background-color: #919e91;
+  font-weight: normal;
+  padding: 10px;
+  border-left: 5px solid green;
+}
+
+a {
+  color: #919e91;
+  font-family: 'Arial', sans-serif;
+  margin: 0 5px;
+}
+
+a:hover {
+  color: green;
+}
+
+table {
+  font-family: 'Arial';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead tr {
+  border-bottom: 1px solid green;
+}
+
+table thead tr th {
+  padding: 5px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #919e91;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #d2e0d2;
+}
+
+table tbody tr td {
+  padding: 5px;
+}
+
+.emphasized {
+  font-style: italic;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.special-emphasized {
+  color: rgb(151, 211, 151);
+}
+
+table .emphasized {
+  font-weight: normal;
+}
+
+.hero-section {
+
+  padding: 100px 0;
+  background-color: rgb(20, 55, 20);
+}
+
+.slogan {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 20px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  padding: 20px 0;
+}
+
+.left-links {
+  width: 25%;
+}
+
+.right-links {
+  width: 75%;
+  text-align: right;
+}
